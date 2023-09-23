@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(90deg,rgba(25, 42, 86,1),rgba(47,54,40,0.2)), url(meh.JPG);
+    background-size: cover;
+}
+
+nav{
+    width: 25%;
+    height: 100vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+
+.logo{
+    font-size: 3em;
+    color: white;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    margin: 20px auto;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.menu{
+    padding-top: 100px;
+}
+
+.menu a:first-child{
+    background-color:#192a56 ;
+}
+
+.menu a:hover{
+    background-color:#192a56 ;
+}
+
+.menu i{
+    margin: 0 20px;
+}
+
+.s-icons{
+    position: absolute;
+    bottom: 8%;
+}
+
+.s-icons i{
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0px 10px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 1px 3px whitesmoke;
+    transition: 0.5s ease;
+}
+
+.s-icons i:nth-child(1){
+    background-color: #3b5998;
+}
+.s-icons i:nth-child(2){
+    background-color: #00acee;
+}
+
+.s-icons i:nth-child(3){
+    background-color: #e84393;
+}
+
+.s-icons i:nth-child(4){
+    background-color: #128c7e;
+}
+
+.s-icons i:nth-child(5){
+    background-color: #192a56;
+}
+
+.s-icons i:hover{
+    transform: translatey(-20px);
+}
