@@ -21,9 +21,9 @@ nav{
 }
 
 .logo{
-    font-size: 3em;
+    font-size: 4em;
     color: white;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -37,7 +37,7 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu{
-    padding-top: 100px;
+    padding-top: 105px;
 }
 
 .menu a:first-child{
