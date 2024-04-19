@@ -12,12 +12,12 @@ header{
 }
 
 nav{
-    width: 25%;
+    width: 26%;
     height: 100vh;
     background-color: transparent;
     display: flex;
     flex-direction: column;
-    padding: 20px 30px;
+    padding: 22px 29px;
 }
 
 .logo{
@@ -33,7 +33,7 @@ nav{
     display: block;
     padding: 10px 20px;
     margin: 20px auto;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .menu{
@@ -49,7 +49,7 @@ nav{
 }
 
 .menu i{
-    margin: 1px 21px;
+    margin: 11px 20px;
 }
 
 .s-icons{
@@ -61,8 +61,8 @@ nav{
     color: whitesmoke;
     font-size: 20px;
     margin: 1px 10px;
-    padding: 10px;
-    border-radius: 52%;
+    padding: 9px;
+    border-radius: 53%;
     cursor: pointer;
     box-shadow: 2px 1px 3px whitesmoke;
     transition: 0.6s ease;
